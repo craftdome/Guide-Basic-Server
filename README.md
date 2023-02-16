@@ -74,6 +74,7 @@ deluser --remove-all-files user_name
 
 ## Шаг 3. Защита сети. NetFilter (iptables)
 > Требуется root `su -`
+> Пакеты: iptables iptables-persistent
 
 1. Просмотр открытых портов и процессов.
 ```
