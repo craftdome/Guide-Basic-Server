@@ -161,7 +161,7 @@ systemctl disable rsyslog
 * * * * * find /var/log/* -not -name ".*" -type f,d,l -mmin +10 -delete
 ```
 
-4. Применение новый задач планировщика.
+4. Применение новых задач планировщика.
 ```
 systemctl restart cron
 ```
